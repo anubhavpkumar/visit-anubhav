@@ -1,0 +1,11 @@
+.ContentWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and  (orientation:portrait) {
+    .ContentWrapper {
+        flex-direction: column;
+    }
+  }

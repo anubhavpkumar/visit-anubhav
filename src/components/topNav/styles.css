@@ -1,0 +1,48 @@
+.topNav {
+    height: 120px;
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.nameHeading {
+    line-height: 120px;
+    font-size: 28px;
+    color: black;
+}
+.nameLogo {
+    height: 100px;
+    padding: 12px 0px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    line-height: 120px;
+}
+.menuItems { 
+    padding: 0px 12px;
+    color: black;
+}
+
+.smIcon {
+    color: inherit;
+}
+@media only screen and  (orientation:portrait) {
+    .topNav {
+        flex-direction: column;
+    }
+    .menu {
+        line-height:normal;
+        justify-content: center;
+    }
+    .nameHeading {
+        line-height: normal;
+    }
+    .nameLogo {
+        top: 12px;
+        position: relative;
+        height: 57px;
+        padding: 0px;
+        width: 264px;
+    }
+}
